@@ -1,0 +1,24 @@
+# Build output
+target/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Secrets & local config — never commit credentials
+.env
+.env.*
+*.pem
+
+# Logs
+*.log
+
+# Local data
+receipt-images/
